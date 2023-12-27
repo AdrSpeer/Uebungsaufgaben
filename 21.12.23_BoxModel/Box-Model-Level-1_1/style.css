@@ -1,0 +1,9 @@
+article {
+  background-color: aquamarine;
+  width: 200px;
+  padding: 25px;
+  border: solid 25px black;
+  margin: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}

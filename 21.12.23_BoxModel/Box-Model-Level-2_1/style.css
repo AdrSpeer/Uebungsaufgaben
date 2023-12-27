@@ -1,0 +1,73 @@
+h1 {
+  border: dashed black 3px;
+  text-align: center;
+  border-radius: 15px;
+  width: 650px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+p {
+  border: solid 0.5px orange;
+  color: blueviolet;
+  width: 600px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+p:hover::first-letter {
+  font-size: 45px;
+  color: rgb(166, 6, 6);
+}
+
+h2 {
+  -webkit-box-shadow: 0px 1px 23px 5px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 1px 23px 5px rgba(0, 0, 0, 0.64);
+  border-radius: 15px;
+  text-align: center;
+  border-radius: 15px;
+  width: 600px;
+  padding: 8px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+ol {
+  border: dashed 0.5px green;
+  width: 430px;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+li {
+  text-decoration: underline green;
+}
+
+h3 {
+  border: double rgb(141, 208, 40) 3px;
+  border-radius: 20px;
+  border-width: 10px;
+  text-align: center;
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+ul {
+  border: dashed 0.5px green;
+  width: 430px;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "great";
+  src: url(./assets/fonts/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "sans";
+  src: url(./assets/fonts/OpenSans-Italic-VariableFont_wdth\wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  background: url(./assets/img/leaves.jpeg) no-repeat center;
+  background-size: cover;
+  font-family: "great";
+  width: 1425px;
+  height: 810px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  padding: 20px 0 230px 115px;
+  height: 49px;
+  font-size: 40px;
+}
+
+header div {
+  margin: 0 auto 120px auto;
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  width: 300px;
+  height: 72px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header div p {
+  text-align: center;
+  width: 300px;
+  height: 88px;
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-family: "sans";
+}
+
+header div a {
+  border: solid 1px white;
+  font-size: 16px;
+  font-family: "sans";
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  padding: 11px 30px;
+}
+
+header div a:hover {
+  background-color: white;
+  color: black;
+}
+
+header ul {
+  padding: 0 115px 50px 0;
+  text-align: right;
+  list-style: none;
+  font-family: "sans";
+}
+
+header ul li {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+header ul li:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 1425px;
+  height: 485px;
+}
+
+section h3 {
+  font-family: "great";
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main section p {
+  text-align: center;
+  width: 599px;
+  height: 155px;
+  margin: 0 auto 0 auto;
+  font-size: 16px;
+  font-family: "sans";
+}
+
+main div {
+  width: 210px;
+  height: 118px;
+  border: solid 5px black;
+  margin: 0 auto 0 auto;
+}
+
+main div p:nth-of-type(1) {
+  text-align: center;
+  padding-top: 25px;
+}
+
+main div p:nth-of-type(2) {
+  text-align: center;
+  padding-top: 25px;
+}
+
+footer {
+  width: 1425px;
+  height: 175px;
+  background-color: #3a3b4a;
+}
+
+footer article {
+  width: 750px;
+  height: 162px;
+  color: white;
+}
+
+footer article p {
+  padding: 41px 25px 10px 25px;
+  margin-bottom: 10px;
+}
+
+footer article a {
+  width: 54px;
+  height: 22px;
+  border: solid 1px white;
+  color: white;
+  text-decoration: none;
+  padding: 11px 30px;
+  margin-left: 26px;
+}
+
+footer article a:hover {
+  background-color: white;
+  color: black;
+}

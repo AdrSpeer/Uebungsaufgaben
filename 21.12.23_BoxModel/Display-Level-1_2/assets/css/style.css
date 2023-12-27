@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+section {
+  background-image: url(../img/800x600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  height: 50px;
+  background-color: rgb(191, 188, 188, 0.7);
+}
+
+nav {
+  text-align: right;
+  padding-top: 15px;
+}
+
+a {
+  color: white;
+  margin: 10px 15px;
+  text-decoration: none;
+}

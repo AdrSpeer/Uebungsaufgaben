@@ -1,0 +1,18 @@
+p::before {
+  content: "Info";
+  background-color: rgb(197, 197, 31);
+}
+
+p::after {
+  content: "♥";
+  color: yellow;
+}
+
+p {
+  border: solid 1px yellow;
+}
+
+p::selection {
+  color: yellow;
+  text-decoration: underline;
+}

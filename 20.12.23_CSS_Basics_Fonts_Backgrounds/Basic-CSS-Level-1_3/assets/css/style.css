@@ -1,0 +1,21 @@
+html {
+  background-color: lightgray;
+}
+
+nav {
+  background-color: darkgrey;
+}
+
+nav a {
+  display: block;
+  margin-left: 35px;
+  color: orange;
+}
+
+article p:nth-of-type(1) {
+  color: orangered;
+}
+
+span {
+  color: red;
+}

@@ -1,0 +1,13 @@
+article {
+  border: solid 0.5px rgb(180, 170, 170);
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+p {
+  border: solid 4px black;
+  padding: 20px;
+  margin: 15px;
+  background-color: rgb(81, 196, 158);
+}
