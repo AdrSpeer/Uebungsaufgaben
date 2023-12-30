@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "maven";
+  src: url(./assets/fonts/MavenPro-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "gilda";
+  src: url(./assets/fonts/GildaDisplay-Regular.ttf);
+}
+
+header {
+  height: 100vh;
+  background-color: #333333;
+}
+
+.firstp {
+  color: #949494;
+  font-weight: 700;
+  width: 74px;
+  height: 41px;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 4px;
+  margin-bottom: 70px;
+  padding-left: 8px;
+}
+
+header div {
+  width: 300px;
+  height: 227px;
+  border-radius: 8px;
+  margin: 0 auto 30px auto;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 255, 0.475) 20%,
+    rgba(39, 39, 240, 0.88) 50%,
+    #48cefa 100%
+  );
+}
+
+header div:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(39, 39, 240, 0.88) 50%,
+    rgba(255, 0, 255, 0.475) 100%
+  );
+}
+
+header div h2 {
+  width: 200px;
+  height: 153px;
+  font-family: "gilda";
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin: 0 auto 16px auto;
+  line-height: 56px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+header div p {
+  width: 237px;
+  height: 38px;
+  font-family: "maven";
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  width: 1400px;
+  height: 140px;
+  text-align: right;
+}
+
+nav a {
+  display: block;
+  padding-bottom: 19px;
+  text-decoration: none;
+  color: #949494;
+  padding-right: 8px;
+}
+
+nav a:hover {
+  color: white;
+  text-shadow: -1px -10px 19px rgba(14, 13, 13, 0.65);
+}
+
+header {
+  margin-bottom: 300px;
+}
+
+main section {
+  width: 1370px;
+  height: 2227px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 105px;
+  color: #ededed;
+  opacity: 0.35;
+  margin-bottom: -39px;
+}
+
+main section article h2 {
+  width: 333px;
+  height: 65px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 2px;
+  margin-bottom: 56px;
+}
+
+main section article p {
+  font-size: 16px;
+  font-family: "maven";
+  width: 691px;
+  height: 76px;
+  margin-bottom: 216px;
+}
+
+img {
+  width: 695px;
+  height: 434px;
+  margin: 0 auto 36px auto;
+  display: block;
+}
+
+img:hover {
+  border-radius: 15px;
+}
+
+main section h3 {
+  margin: 0 auto 10px 347px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+main section p {
+  margin: 0 auto 80px 347px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+}

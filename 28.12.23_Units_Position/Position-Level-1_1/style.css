@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "pop";
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+body {
+  height: 100vh;
+  background-image: url(./assets/img/samuel-ferrara-1527pjeb6jg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  font-family: "pop";
+  position: absolute;
+  top: 220px;
+  right: 150px;
+}
+
+h2 {
+  color: white;
+  font-size: 45px;
+  font-family: "pop";
+  position: absolute;
+  top: 340px;
+  right: 160px;
+}

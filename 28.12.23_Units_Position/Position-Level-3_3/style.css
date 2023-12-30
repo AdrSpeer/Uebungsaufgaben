@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  height: 100vh;
+  background-color: rgba(123, 140, 228, 1);
+}
+
+nav {
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-size: clamp(2rem, 2.5vh, 3rem);
+}
+
+.company {
+  padding-left: 1.5rem;
+  padding-right: 85rem;
+}
+
+.nav {
+  padding-left: 5rem;
+}
+
+.logo {
+  padding-left: 1.5rem;
+  margin-bottom: 25rem;
+}
+
+.image {
+  position: relative;
+}
+
+.image img:nth-of-type(1) {
+  position: absolute;
+  right: 20rem;
+  top: -35rem;
+}
+
+.image img:nth-of-type(2) {
+  position: absolute;
+  right: 20rem;
+  top: -34rem;
+}
+
+.image img:nth-of-type(3) {
+  position: absolute;
+  right: 59rem;
+  top: -33rem;
+}
+
+.image img:nth-of-type(4) {
+  position: absolute;
+  right: 26rem;
+  top: -22rem;
+}
+
+.slogan {
+  padding-left: 15rem;
+  text-align: center;
+  width: 35rem;
+}
+
+h1 {
+  color: rgba(255, 236, 204, 1);
+  font-size: clamp(2.5rem, 3vh, 3.5rem);
+  margin-bottom: 3rem;
+  width: 20rem;
+  line-height: 3rem;
+}
+
+.slogan p {
+  color: white;
+  width: 20rem;
+  font-size: clamp(1.5rem, 2vh, 2.5rem);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.slogan a {
+  color: rgba(63, 65, 78, 1);
+  background-color: rgba(235, 234, 236, 1);
+  padding: 0.8rem 3rem;
+  font-size: clamp(1.5rem, 2vh, 2.5rem);
+  text-align: center;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  width: 20rem;
+}

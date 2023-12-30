@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  background-image: url(./assets/img/bgr.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30vh;
+}
+
+h1 {
+  font-size: 3.5rem;
+  background-color: rgb(174, 168, 168);
+  opacity: 0.3;
+  width: 25vw;
+  padding: 4rem;
+  margin: auto;
+  text-align: center;
+}
