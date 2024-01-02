@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  height: 100vh;
+  background-image: url(./assets/img/neom-MV7iHCilMJc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+  height: 8vh;
+  width: 100vw;
+  opacity: 0.5;
+  background-color: rgb(72, 69, 69);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  padding-left: 2vw;
+  font-size: clamp(1.6rem, 1.8vw, 2rem);
+}
+
+nav {
+  padding-right: 2vw;
+}
+
+a {
+  padding-right: 1vw;
+  text-decoration: none;
+  color: white;
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+}

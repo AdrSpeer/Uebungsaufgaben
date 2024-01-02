@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "rale";
+  src: url(./assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "rale";
+}
+
+header {
+  background-image: url(./assets/img/bgr.jpg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  padding-left: 8vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  background-color: white;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 2vw;
+  padding-right: 15vw;
+}
+
+.nav_list a {
+  text-decoration: none;
+  color: black;
+}
+
+ul a:hover {
+  color: rgb(87, 87, 245);
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  gap: 3vh;
+}
+
+section h2 {
+  color: white;
+  font-size: clamp(3rem, 3.5vw, 4rem);
+  font-weight: 400;
+}
+
+section p {
+  color: white;
+  font-size: clamp(0.6rem, 0.8vw, 1.3rem);
+  font-weight: 100;
+}
+
+section div {
+  display: flex;
+  gap: 0.6vw;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+}
+
+div a:nth-of-type(2) {
+  background-color: rgba(116, 92, 249, 1);
+  border: 1px solid rgba(116, 92, 249, 1);
+  padding: 10px 35px;
+}
+
+div a:nth-of-type(1) {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+div a:nth-of-type(1):hover {
+  background-color: white;
+  color: black;
+}
+
+div a:nth-of-type(2):hover {
+  background-color: rgb(87, 69, 189);
+  border: 1px solid rgba(87, 69, 189);
+}
