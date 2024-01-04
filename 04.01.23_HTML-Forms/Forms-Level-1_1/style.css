@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.name-box label {
+  text-align: left;
+}
+
+#name,
+#name1 {
+  width: 125px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+input {
+  margin-bottom: 15px;
+  width: 260px;
+  text-align: center;
+}
+
+span {
+  color: red;
+}
+
+#submit {
+  background-color: rgb(9, 163, 190);
+  border: none;
+  width: 270px;
+  padding: 5px 0;
+}
+textarea {
+  margin-bottom: 15px;
+}
+
+select {
+  margin-bottom: 15px;
+  max-width: 270px;
+}
+
+#submit:hover {
+  background-color: rgb(13, 89, 170);
+  transition: 0.5s;
+}
