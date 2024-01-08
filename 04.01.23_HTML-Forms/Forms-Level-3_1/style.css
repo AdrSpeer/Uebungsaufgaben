@@ -6,7 +6,7 @@
 
 .wrapper {
   padding-top: 30px;
-  height: 90vh;
+  height: 90%;
   width: 95vw;
   align-items: center;
 }
@@ -16,7 +16,7 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90%;
   width: 50vh;
   box-shadow: 5px 6px 15px 1px #000000;
 }
@@ -30,7 +30,7 @@ div {
 
 .headline {
   width: 100%;
-  height: 72px;
+  height: 10vh;
   background-color: rgb(134, 181, 222);
   text-align: left;
   padding-left: 15px;

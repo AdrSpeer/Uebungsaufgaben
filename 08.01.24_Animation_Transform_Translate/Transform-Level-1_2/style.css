@@ -1,0 +1,47 @@
+section {
+  height: 80vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+div {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+}
+
+.firstrow,
+.secondrow {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.firstrow div:nth-of-type(1):hover {
+  transform: translate(15px, 15px);
+}
+
+.firstrow div:nth-of-type(2):hover {
+  transform: translateX(15px);
+}
+
+.firstrow div:nth-of-type(3):hover {
+  transform: translateY(15px);
+}
+
+.secondrow div:nth-of-type(1):hover {
+  transform: rotate(55deg);
+}
+
+.secondrow div:nth-of-type(2):hover {
+  transform: scaleY(1.2);
+}
+
+.secondrow div:nth-of-type(3):hover {
+  transform: skew(15deg, 25deg);
+}

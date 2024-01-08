@@ -1,0 +1,41 @@
+section {
+  position: relative;
+  background-color: antiquewhite;
+  height: 30vh;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+div:nth-of-type(1) {
+  background-color: red;
+  left: 0;
+  transition-delay: 0s;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+div:nth-of-type(2) {
+  background-color: green;
+  margin-top: 60px;
+  left: 0;
+  transition-delay: 1s;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+section:hover div:nth-of-type(1) {
+  left: 90%;
+  transition-delay: 0s;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+section:hover div:nth-of-type(2) {
+  left: 90%;
+  transition-delay: 1s;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
