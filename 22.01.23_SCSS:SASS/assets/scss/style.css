@@ -42,6 +42,9 @@ header a {
   font-weight: 500;
   padding: 1rem;
 }
+header a:hover {
+  text-decoration: underline;
+}
 header svg {
   margin-left: 0.5rem;
 }
@@ -81,6 +84,10 @@ header svg {
   border-radius: 0.8rem;
   margin-bottom: 12rem;
   text-transform: uppercase;
+}
+.welcome a:hover {
+  transition: 1s;
+  font-size: 3rem;
 }
 
 .facilities {
@@ -176,6 +183,10 @@ header svg {
   font-weight: 500;
   padding: 1vw 3.5vw;
   border-radius: 1rem;
+}
+.rooms-wrapper a:hover {
+  transition: 1s;
+  font-size: 3rem;
 }
 
 .book {

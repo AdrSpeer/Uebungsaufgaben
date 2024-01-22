@@ -44,6 +44,9 @@ header {
   a {
     @include mixin.text(var.$text-color, var.$text-size, ubu, 500);
     padding: 1rem;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   svg {
     margin-left: 0.5rem;
@@ -73,6 +76,10 @@ header {
     border-radius: 0.8rem;
     margin-bottom: 12rem;
     text-transform: uppercase;
+    &:hover {
+      transition: 1s;
+      font-size: 3rem;
+    }
   }
 }
 
@@ -149,6 +156,10 @@ header {
     @include mixin.text(var.$text-color-second, var.$text-size, ubu, 500);
     padding: 1vw 3.5vw;
     border-radius: 1rem;
+    &:hover {
+      transition: 1s;
+      font-size: 3rem;
+    }
   }
 }
 
