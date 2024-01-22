@@ -178,7 +178,7 @@ footer {
   padding: 3rem 2rem 6rem 3rem;
 }
 
-div:nth-of-type(1) {
+.footer-left {
   img {
     margin-bottom: 2rem;
   }
@@ -190,14 +190,14 @@ div:nth-of-type(1) {
   }
 }
 
-div:nth-of-type(2) {
+.footer-middle {
   p {
     @include mixin.text(var.$text-color-second, var.$text-size, ubu, 400);
     padding-bottom: 2rem;
   }
 }
 
-div:nth-of-type(3) {
+.footer-right {
   h4 {
     @include mixin.text(var.$text-color-second, 3rem, ubu, 500);
     padding-bottom: 1rem;
