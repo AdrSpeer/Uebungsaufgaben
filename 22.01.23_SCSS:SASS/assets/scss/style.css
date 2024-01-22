@@ -1,0 +1,276 @@
+@font-face {
+  font-family: ubu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: ubu-light;
+  src: url(../fonts/Ubuntu-Light.ttf);
+}
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+header img {
+  margin-top: 5rem;
+  margin-bottom: 7.5rem;
+}
+header a {
+  color: #957554;
+  font-size: 2.4rem;
+  font-family: ubu;
+  font-weight: 500;
+  padding: 1rem;
+}
+header svg {
+  margin-left: 0.5rem;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/hero_image.png) no-repeat center;
+  background-size: cover;
+  padding-top: 31rem;
+  margin-bottom: 2rem;
+}
+.welcome h1 {
+  color: #fff;
+  font-size: 8rem;
+  font-family: ubu;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+.welcome p {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: ubu;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.welcome a {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: ubu;
+  font-weight: 500;
+  padding: 1vw 6vw;
+  background-color: #dfaa5b;
+  border-radius: 0.8rem;
+  margin-bottom: 12rem;
+  text-transform: uppercase;
+}
+
+.facilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12rem;
+}
+.facilities h2 {
+  color: #957554;
+  font-size: 4.5rem;
+  font-family: ubu;
+  font-weight: 500;
+  margin-bottom: 4.7rem;
+}
+.facilities .icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80vw;
+}
+.facilities div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.facilities p {
+  color: #957554;
+  font-size: 2.4rem;
+  font-family: ubu;
+  font-weight: 400;
+}
+
+.rooms {
+  margin-bottom: 15rem;
+}
+.rooms h2 {
+  color: #957554;
+  font-size: 4.5rem;
+  font-family: ubu;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+.rooms .rooms-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  margin: 0 6rem;
+}
+
+.rooms-wrapper div {
+  height: 60vh;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rooms-wrapper div:nth-of-type(1) {
+  background: url(../img/standard_twin_room.png) no-repeat center;
+  background-size: cover;
+}
+.rooms-wrapper div:nth-of-type(2) {
+  background: url(../img/standard_room.png) no-repeat center;
+  background-size: cover;
+}
+.rooms-wrapper div:nth-of-type(3) {
+  background: url(../img/standard_view_room.png) no-repeat center;
+  background-size: cover;
+}
+.rooms-wrapper div:nth-of-type(4) {
+  background: url(../img/deluxe_room.png) no-repeat center;
+  background-size: cover;
+}
+.rooms-wrapper h3 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: ubu;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  margin-top: 9rem;
+}
+.rooms-wrapper a {
+  background-color: #dfaa5b;
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: ubu;
+  font-weight: 500;
+  padding: 1vw 3.5vw;
+  border-radius: 1rem;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14rem;
+}
+.book h2 {
+  color: #957554;
+  font-size: 4.5rem;
+  font-family: ubu;
+  font-weight: 500;
+  margin-bottom: 3.8rem;
+}
+.book a {
+  background-color: #dfaa5b;
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: ubu;
+  font-weight: 500;
+  padding: 1vw 7.5vw;
+  border-radius: 1rem;
+}
+
+footer {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem 2rem 6rem 3rem;
+}
+
+div:nth-of-type(1) img {
+  margin-bottom: 2rem;
+}
+div:nth-of-type(1) h6 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: ubu;
+  font-weight: 500;
+}
+div:nth-of-type(1) p {
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: ubu-light;
+  font-weight: 200;
+}
+
+div:nth-of-type(2) p {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: ubu;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+div:nth-of-type(3) h4 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: ubu;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+div:nth-of-type(3) form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+div:nth-of-type(3) input {
+  width: 20vw;
+  height: 7vh;
+  margin-bottom: 1vw;
+  border: none;
+  border-radius: 1rem;
+}
+div:nth-of-type(3) input[type=submit] {
+  background-color: #dfaa5b;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: ubu;
+  font-weight: 400;
+}
+div:nth-of-type(3) input::-moz-placeholder {
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.6rem;
+  font-family: ubu-light;
+  font-weight: 200;
+}
+div:nth-of-type(3) input::placeholder {
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.6rem;
+  font-family: ubu-light;
+  font-weight: 200;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,223 @@
+@use "mixin";
+@use "var";
+
+@font-face {
+  font-family: ubu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: ubu-light;
+  src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+// ! Header //
+
+// Nav //
+header {
+  nav {
+    @include mixin.flex(flex, column, center, center);
+    margin-bottom: 10rem;
+  }
+  img {
+    margin-top: 5rem;
+    margin-bottom: 7.5rem;
+  }
+  a {
+    @include mixin.text(var.$text-color, var.$text-size, ubu, 500);
+    padding: 1rem;
+  }
+  svg {
+    margin-left: 0.5rem;
+  }
+}
+
+// Welcome //
+.welcome {
+  @include mixin.flex(flex, column, center, center);
+  background: url(../img/hero_image.png) no-repeat center;
+  background-size: cover;
+  padding-top: 31rem;
+  margin-bottom: 2rem;
+  h1 {
+    @include mixin.text(var.$text-color-second, 8rem, ubu, 400);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  p {
+    @include mixin.text(var.$text-color-second, var.$text-size, ubu, 500);
+    margin-bottom: 4rem;
+  }
+  a {
+    @include mixin.text(var.$text-color-second, var.$text-size, ubu, 500);
+    padding: 1vw 6vw;
+    background-color: var.$btn-color;
+    border-radius: 0.8rem;
+    margin-bottom: 12rem;
+    text-transform: uppercase;
+  }
+}
+
+// ! Main //
+
+// Facilities //
+
+.facilities {
+  @include mixin.flex(flex, column, center, center);
+  margin-bottom: 12rem;
+  h2 {
+    @include mixin.text(var.$text-color, var.$h2-size, ubu, 500);
+    margin-bottom: 4.7rem;
+  }
+  .icon-wrapper {
+    @include mixin.flex(flex, row, center, space-around);
+    width: 80vw;
+  }
+  div {
+    @include mixin.flex(flex, column, center, center);
+    gap: 2rem;
+  }
+  p {
+    @include mixin.text(var.$text-color, var.$text-size, ubu, 400);
+  }
+}
+
+// Rooms //
+
+.rooms {
+  margin-bottom: 15rem;
+  h2 {
+    @include mixin.text(var.$text-color, var.$h2-size, ubu, 500);
+    text-align: center;
+    margin-bottom: 3.2rem;
+  }
+  .rooms-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    margin: 0 6rem;
+  }
+}
+
+.rooms-wrapper {
+  div {
+    height: 60vh;
+    border-radius: 1rem;
+    @include mixin.flex(flex, column, center, center);
+  }
+  div:nth-of-type(1) {
+    background: url(../img/standard_twin_room.png) no-repeat center;
+    background-size: cover;
+  }
+  div:nth-of-type(2) {
+    background: url(../img/standard_room.png) no-repeat center;
+    background-size: cover;
+  }
+  div:nth-of-type(3) {
+    background: url(../img/standard_view_room.png) no-repeat center;
+    background-size: cover;
+  }
+  div:nth-of-type(4) {
+    background: url(../img/deluxe_room.png) no-repeat center;
+    background-size: cover;
+  }
+  h3 {
+    @include mixin.text(var.$text-color-second, var.$h3-size, ubu, 400);
+    margin-bottom: 2rem;
+    margin-top: 9rem;
+  }
+  a {
+    background-color: var.$btn-color;
+    @include mixin.text(var.$text-color-second, var.$text-size, ubu, 500);
+    padding: 1vw 3.5vw;
+    border-radius: 1rem;
+  }
+}
+
+// Book //
+
+.book {
+  @include mixin.flex(flex, column, center, center);
+  margin-bottom: 14rem;
+  h2 {
+    @include mixin.text(var.$text-color, var.$h2-size, ubu, 500);
+    margin-bottom: 3.8rem;
+  }
+  a {
+    background-color: var.$btn-color;
+    @include mixin.text(var.$text-color-second, var.$text-size, ubu, 500);
+    padding: 1vw 7.5vw;
+    border-radius: 1rem;
+  }
+}
+
+// ! Footer //
+
+footer {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem 2rem 6rem 3rem;
+}
+
+div:nth-of-type(1) {
+  img {
+    margin-bottom: 2rem;
+  }
+  h6 {
+    @include mixin.text(var.$text-color-second, var.$text-size, ubu, 500);
+  }
+  p {
+    @include mixin.text(var.$text-color-second, 1.6rem, ubu-light, 200);
+  }
+}
+
+div:nth-of-type(2) {
+  p {
+    @include mixin.text(var.$text-color-second, var.$text-size, ubu, 400);
+    padding-bottom: 2rem;
+  }
+}
+
+div:nth-of-type(3) {
+  h4 {
+    @include mixin.text(var.$text-color-second, 3rem, ubu, 500);
+    padding-bottom: 1rem;
+  }
+  form {
+    @include mixin.flex(flex, column, flex-start, center);
+  }
+  input {
+    width: 20vw;
+    height: 7vh;
+    margin-bottom: 1vw;
+    border: none;
+    border-radius: 1rem;
+  }
+  input[type="submit"] {
+    background-color: var.$btn-color;
+    @include mixin.text(var.$text-color-second, 1.6rem, ubu, 400);
+  }
+  input::placeholder {
+    padding-left: 1rem;
+    @include mixin.text(rgba(0, 0, 0, 0.5), 1.6rem, ubu-light, 200);
+  }
+}
