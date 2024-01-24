@@ -11,15 +11,15 @@
       <h1>Git-Cheatsheet</h1>
       <h6>Inhaltsverzeichnis</h6>
       <ol>
-        <li>Repo erstllen</li>
-        <li>Basic Befehle</li>
-        <li>Branch</li>
-        <li>Merge</li>
-        <li>Commit zurück gehen</li>
+        <li><a href="#repo-erstellen">Repo erstllen</a></li>
+        <li><a href="#basic-befehle">Basic Befehle</a></li>
+        <li><a href="#branch">Branch</a></li>
+        <li><a href="#merge">Merge</a></li>
+        <li><a href="#commit">Commit zurück gehen</a></li>
       </ol>
     </header>
     <main>
-      <section class="repo-erstellen">
+      <section id="repo-erstellen">
         <h5>Repo erstellen</h5>
         <ol>
           <li>
@@ -44,7 +44,7 @@
           />
         </ol>
       </section>
-      <section class="basic-befehle">
+      <section id="basic-befehle">
         <h5>Git Befehle Basic</h5>
         <ul>
           <li>
@@ -78,7 +78,7 @@
           </li>
         </ul>
       </section>
-      <section class="branch">
+      <section id="branch">
         <h5>Branch</h5>
         <p>
           Verwende einen Branch, um die Entwicklungsarbeit ohne Auswirkungen auf
@@ -109,7 +109,7 @@
           </li>
         </ul>
       </section>
-      <section class="merge">
+      <section id="merge">
         <h5>Merge</h5>
         <p>
           Mit git merge werden mehrere Commit-Abfolgen in einen einheitlichen
@@ -127,9 +127,31 @@
           </li>
           <li>
             Fertigstellen mit
-            <span>git add. -> git commit -m "merge branch -> git push</span>
+            <span>git add. -> git commit -m "merge branch" -> git push</span>
           </li>
           <li><span>git branch -d BurgerMenu</span> -> Löscht den branch</li>
+        </ol>
+      </section>
+      <section id="commit">
+        <h5>Commit zurück gehen</h5>
+        <p>
+          Einen Commit zurück gehen ist manchmal notwendig und Sinnvoll. Das
+          kann der Fall sein, wenn Fehler auftreten und es einfacher ist einen
+          oder mehrere Schritte zurück zugehen
+        </p>
+        <ol>
+          <li>
+            <span>git log --oneline</span> -> ID des commits raussuchen zudem
+            man zurück will
+          </li>
+          <li>
+            <span>git checkout 3290492 .</span> -> Durch die ID zum alten Stand
+            zurück
+          </li>
+          <li>
+            Fertigstellen mit
+            <span>git add. -> git commit -m "back" -> git push</span>
+          </li>
         </ol>
       </section>
     </main>

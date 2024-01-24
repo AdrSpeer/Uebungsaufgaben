@@ -62,6 +62,17 @@ header {
   color: rgb(101, 97, 97);
 }
 
+header a {
+  color: rgb(101, 97, 97);
+}
+
+header a:hover {
+  color: rgb(101, 97, 97);
+  text-decoration: underline;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
 header h1 {
   text-align: center;
   margin-bottom: 2vw;
@@ -84,39 +95,50 @@ main {
 
 /* Repo erstellen */
 
-.repo-erstellen li {
+#repo-erstellen li {
   margin-bottom: 5px;
 }
 
-.repo-erstellen img {
+#repo-erstellen img {
   margin-bottom: 15px;
 }
 
 /* Basic Befehle */
 
-.basic-befehle li {
+#basic-befehle li {
   margin-bottom: 5px;
 }
 
 /* Branch */
 
-.branch p {
+#branch p {
   font-style: italic;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.branch li {
+#branch li {
   margin-bottom: 5px;
 }
 
 /* Merge */
-.merge p {
+#merge p {
   font-style: italic;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.merge li {
+#merge li {
+  margin-bottom: 5px;
+}
+
+/* Commit */
+#commit p {
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#commit li {
   margin-bottom: 5px;
 }
