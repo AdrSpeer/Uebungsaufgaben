@@ -13,11 +13,9 @@
       <ol>
         <li>Repo erstllen</li>
         <li>Basic Befehle</li>
-        <li>Branch erstellen und wechseln</li>
-        <li>Arbeit durchführen</li>
+        <li>Branch</li>
         <li>Ablauf Merge</li>
         <li>Commit zurück gehen</li>
-        <li>Branch löschen</li>
       </ol>
     </header>
     <main>
@@ -77,6 +75,37 @@
           <li>
             <span>git pull</span> -> mit "git pull" lade ich die geänderten
             Datein herunter
+          </li>
+        </ul>
+      </section>
+      <section class="branch">
+        <h5>Branch</h5>
+        <p>
+          Verwende einen Branch, um die Entwicklungsarbeit ohne Auswirkungen auf
+          andere Branches im Repository zu isolieren. Jedes Repository hat einen
+          Standardbranch (main) und kann mehrere weitere Branches haben.
+        </p>
+        <ul>
+          <li>
+            <span>git branch</span> -> zeigt alle vorhanden Branches an. (* ist
+            wo man sich gerade befindet)
+          </li>
+          <li>
+            <span>git branch BurgerMenu</span> -> legt einen neunen Branch an,
+            mit dem Namen BurgerMenu
+          </li>
+          <li>
+            <span>git checkout BurgerMenu</span> -> wechselt zu einem neuen
+            Branch
+          </li>
+          <li>
+            <span>git checkout -b BurgerMenu2</span> -> legft einen neunen
+            Branch BurgerMenu2 an und wechselt in den neuen Branch (shortcut git
+            branch und git checkout)
+          </li>
+          <li>
+            <span>git branch -d BurgerMenu2</span> -> Löscht den Branch
+            BurgerMenu2
           </li>
         </ul>
       </section>

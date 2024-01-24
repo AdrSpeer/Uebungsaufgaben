@@ -51,6 +51,10 @@ section {
   margin-bottom: 50px;
 }
 
+span {
+  font-weight: bold;
+}
+
 /* ! Header */
 header {
   padding: 2vw 2vw;
@@ -94,6 +98,14 @@ main {
   margin-bottom: 5px;
 }
 
-.basic-befehle span {
-  font-weight: bold;
+/* Branch */
+
+.branch p {
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.branch li {
+  margin-bottom: 5px;
 }
