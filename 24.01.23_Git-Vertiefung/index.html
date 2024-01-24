@@ -14,7 +14,7 @@
         <li>Repo erstllen</li>
         <li>Basic Befehle</li>
         <li>Branch</li>
-        <li>Ablauf Merge</li>
+        <li>Merge</li>
         <li>Commit zurück gehen</li>
       </ol>
     </header>
@@ -108,6 +108,29 @@
             BurgerMenu2
           </li>
         </ul>
+      </section>
+      <section class="merge">
+        <h5>Merge</h5>
+        <p>
+          Mit git merge werden mehrere Commit-Abfolgen in einen einheitlichen
+          Verlauf zusammengeführt. Vor allem wird git merge genutzt, um zwei
+          Branches zu vereinen.
+        </p>
+        <ol>
+          <li>
+            <span>git checkout main</span> -> Wechselt zum main Branch, was die
+            Voraussetzung für einen Merge ist
+          </li>
+          <li>
+            <span>git merge BurgerMenu</span> -> Führt den main Branch mit den
+            BurgerMenu Branch (Beispiel) zusammen
+          </li>
+          <li>
+            Fertigstellen mit
+            <span>git add. -> git commit -m "merge branch -> git push</span>
+          </li>
+          <li><span>git branch -d BurgerMenu</span> -> Löscht den branch</li>
+        </ol>
       </section>
     </main>
   </body>

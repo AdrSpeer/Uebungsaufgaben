@@ -109,3 +109,14 @@ main {
 .branch li {
   margin-bottom: 5px;
 }
+
+/* Merge */
+.merge p {
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.merge li {
+  margin-bottom: 5px;
+}
