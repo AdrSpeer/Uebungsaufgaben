@@ -11,8 +11,8 @@
       <h1>Git-Cheatsheet</h1>
       <h6>Inhaltsverzeichnis</h6>
       <ol>
-        <li>Einleitung</li>
-        <li>Projekt einrichten</li>
+        <li>Repo erstllen</li>
+        <li>Basic Befehle</li>
         <li>Branch erstellen und wechseln</li>
         <li>Arbeit durchführen</li>
         <li>Ablauf Merge</li>
@@ -20,5 +20,66 @@
         <li>Branch löschen</li>
       </ol>
     </header>
+    <main>
+      <section class="repo-erstellen">
+        <h5>Repo erstellen</h5>
+        <ol>
+          <li>
+            Wähle in der rechten oberen Ecke einer beliebigen Seite , und klicke
+            dann auf Neues Repository.
+          </li>
+          <img src="./assets/img/new_repo.png" alt="Neue Repo Screenshot" />
+          <li>
+            Gib einen kurzen, einprägsamen Namen für das Repository ein und
+            wähle den "Owner" aus
+          </li>
+          <img src="./assets/img/Repo_Name.png" alt="Repo Name Screenshot" />
+          <li>Wähle eine Sichtparkeitsoption aus</li>
+          <img
+            src="./assets/img/Sichtbarkeitsoptionen.png"
+            alt="Sichtbarkeitsoptionen Screenshot"
+          />
+          <li>README und Respository erstellen</li>
+          <img
+            src="./assets/img/Repo erstellen.png"
+            alt="Repo und README erstellen Screenshot"
+          />
+        </ol>
+      </section>
+      <section class="basic-befehle">
+        <h5>Git Befehle Basic</h5>
+        <ul>
+          <li>
+            <span>git add .</span> -> fügt eine Änderung aus dem
+            Arbeitsverzeichnis zur Staging-area hinzu.
+          </li>
+          <li>
+            <span>git add FILENAME</span> -> hiermit kann nur eine Datei in die
+            Staging-area hinzufügen.
+          </li>
+          <li>
+            <span>git commit -m "Text was geändert wurde"</span> -> erstellt
+            einen neunen commit mit einer Nachricht "Text was geändert wurde"
+          </li>
+          <li>
+            <span>git push</span> -> Uploaded die Dateien die zuvor mit " git
+            add . " in die Stagging area bewegt worden sind in das Github Repo
+          </li>
+          <li>
+            <span>git log</span> -> alle erstellten Commits werden im Terminal
+            angezeigt (mit "q" kann ich die Ansicht verlassen)
+          </li>
+          <li>
+            <span>git status</span> -> kann verwendet werden, um
+            zusammenzufassen, welche Dateien geändert und die für den nächsten
+            Commit bereitgestellt wurden.
+          </li>
+          <li>
+            <span>git pull</span> -> mit "git pull" lade ich die geänderten
+            Datein herunter
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>

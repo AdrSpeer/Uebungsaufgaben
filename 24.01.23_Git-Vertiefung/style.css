@@ -11,7 +11,8 @@ html {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
+  max-height: 25vh;
 }
 
 h1 {
@@ -28,6 +29,8 @@ h4 {
 }
 h5 {
   font-size: clamp(2.5rem, 3vw, 3.2rem);
+  margin-bottom: 25px;
+  text-align: center;
 }
 h6 {
   font-size: clamp(1.6rem, 2.5vw, 1.8rem);
@@ -42,6 +45,10 @@ a {
 }
 li {
   font-size: clamp(2rem, 2vw, 2rem);
+}
+
+section {
+  margin-bottom: 50px;
 }
 
 /* ! Header */
@@ -62,4 +69,31 @@ header h6 {
 
 header li {
   padding-bottom: 0.7vw;
+}
+
+/* ! Main */
+
+main {
+  background-color: antiquewhite;
+  padding: 2vw 2vw;
+}
+
+/* Repo erstellen */
+
+.repo-erstellen li {
+  margin-bottom: 5px;
+}
+
+.repo-erstellen img {
+  margin-bottom: 15px;
+}
+
+/* Basic Befehle */
+
+.basic-befehle li {
+  margin-bottom: 5px;
+}
+
+.basic-befehle span {
+  font-weight: bold;
 }
