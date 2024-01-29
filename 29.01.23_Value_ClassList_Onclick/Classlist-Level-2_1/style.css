@@ -1,0 +1,34 @@
+/* Basics */
+
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  cursor: pointer;
+}
+
+.headline {
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.bucket-list {
+  color: blue;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}

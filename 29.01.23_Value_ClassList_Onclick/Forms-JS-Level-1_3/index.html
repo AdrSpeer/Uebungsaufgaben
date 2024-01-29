@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="alter1">Alter 1</label>
+      <input id="alter1" type="number" />
+      <br />
+      <label for="alter2">Alter 2</label>
+      <input id="alter2" type="number" />
+      <br />
+      <input
+        onclick="berechnung(event)"
+        type="submit"
+        id="submit"
+        value="Berechne!"
+      />
+    </form>
+    <p class="ergebnis">Die Differenz ist:</p>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
