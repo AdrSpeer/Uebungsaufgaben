@@ -14,12 +14,14 @@ function checkAirQuality() {
     secondHeadline.innerHTML = "Level of health effect: Acceptable quality";
     quality.innerHTML = "Luftqualität: " + range;
     background.style.backgroundColor = "yellow";
-  } else {
+  } else if (range > 100 && range <= 150) {
     firstHeadline.innerHTML =
       "Level of health concern: Unhealthy for sensitive groups";
     secondHeadline.innerHTML =
       "Level of health effect: Generable publics not likely affected";
     quality.innerHTML = "Luftqualität: " + range;
     background.style.backgroundColor = "orange";
+  } else {
+    console.log("Fehler, Wert nicht messbar");
   }
 }
