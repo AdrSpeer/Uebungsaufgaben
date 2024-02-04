@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <form>
+      <p>Zu trennende Zeichenkett</p>
+      <!-- Inputfeld für den Text, der getrennt werden soll -->
+      <input id="input" type="text" />
+      <p>Woran trennen</p>
+      <!-- Inputfeld für den Bereich ab dem getrennt werden soll -->
+      <input id="cut" type="text" />
+      <br />
+      <label for="radioDavor"> Davor</label>
+      <!-- Radiobutton für davor trennen -->
+      <input value="davor" name="wo" type="radio" id="radioDavor" />
+      <label for="radioDanach"> Danach</label>
+      <!-- Radiobutton für danach trennen -->
+      <input value="danach" name="wo" type="radio" id="radioDanach" />
+      <br />
+      <!-- Button zum Ausführen der Funktion -->
+      <input type="button" value="Klick mich" onclick="cutIt()" />
+    </form>
+    <!-- Ausgabefeld für davor -->
+    <p id="davor"></p>
+    <!-- Ausgabefeld für danach -->
+    <p id="danach"></p>
+    <!-- Error -->
+    <p id="error"></p>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
