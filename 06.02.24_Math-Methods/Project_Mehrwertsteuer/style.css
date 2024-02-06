@@ -1,0 +1,87 @@
+/* Basics */
+
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+article {
+  height: 85vh;
+  width: 30vw;
+  background-color: rgba(202, 200, 200, 0.291);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 2vw;
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 0.4vw;
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 1vw;
+}
+
+label,
+p {
+  font-size: 12px;
+}
+
+.berechnung,
+.steuersatz,
+.betrag,
+.ergebnis,
+.nettobetrag,
+.steuerbetrag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vw;
+  text-align: left;
+}
+
+.betrag {
+  margin-bottom: 1.5vw;
+  gap: 0.5vw;
+}
+
+div {
+  background-color: rgba(202, 200, 200, 0.291);
+  width: 90%;
+  border-radius: 20px;
+  padding: 0.6vw 0;
+}
+
+.steuerbetrag p {
+  font-weight: bolder;
+}
+.nettobetrag p {
+  font-weight: bolder;
+}
