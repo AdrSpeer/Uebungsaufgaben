@@ -1,0 +1,13 @@
+const person = ["klein", "dumm", "müde"];
+person.push("pleite", "unmotiviert");
+const minusPerson = person.pop();
+console.log(minusPerson);
+console.log(person);
+const friends = ["Cecile", "Fia", "Piotr"];
+friends.push("Max", "Santi");
+friends.pop();
+console.log(friends);
+const favoriteFood = ["Pizza", "Pasta", "Döner"];
+favoriteFood.push("Schnitzel", "Burger");
+favoriteFood.pop();
+console.log(favoriteFood);

@@ -33,7 +33,6 @@ const rechner = () => {
   const outputNetto = document.querySelector(".nettobetrag p");
 
   // Abfrage
-
   // - Brutto 19%
   if (radioBerechnung === "brutto" && radioSteuersatz === "neunzehn") {
     // Berechnung

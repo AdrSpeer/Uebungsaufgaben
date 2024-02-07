@@ -1,0 +1,12 @@
+const number = [23, 54, 75];
+console.log(number);
+const number1 = number.push(11, 32, 42, 5, 71);
+console.log(number);
+const number2 = number.unshift(1, 3, 7, 8, 14);
+console.log(number);
+let number3 = number.pop();
+number3 = number.pop();
+console.log(number);
+let number4 = number.shift();
+number4 = number.shift();
+console.log(number);

@@ -1,0 +1,100 @@
+/* Basics */
+
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h5,
+h6,
+h4 {
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+select {
+  width: 100%;
+  border: 0.1rem solid blueviolet;
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.2vw;
+}
+
+#submit {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  padding: 0.7rem 0;
+}
+
+h1 {
+  margin: 0.5vw 0;
+  text-align: left;
+  font-size: 2rem;
+}
+
+article {
+  background-color: rgba(189, 187, 187, 0.587);
+  width: 25vw;
+  border-radius: 1.5rem;
+  padding: 1vw 2.5vw 1vw 1.5vw;
+}
+
+article,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.6vw;
+}
+
+.geschlecht {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4vw;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+.output {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.2rem;
+  background-color: blueviolet;
+  width: 21vw;
+  padding: 1vw 0.2vw;
+  color: white;
+}
+
+.output h5:nth-of-type(1) {
+  grid-column: 2 / 3;
+}
+
+.output h4:nth-of-type(1) {
+  grid-column: 0 / 2;
+}
+.output h4:nth-of-type(2) {
+  grid-row: 3 / 4;
+}

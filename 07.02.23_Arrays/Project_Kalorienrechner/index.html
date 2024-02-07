@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <article>
+        <h1>Kalorienrechner</h1>
+        <form onsubmit="rechner(event)">
+          <label for="groesse">Körpergröße (cm)</label>
+          <input type="number" name="groesse" id="groesse" />
+          <label for="alter">Alter</label>
+          <input type="number" name="alter" id="alter" />
+          <label for="gewicht">Gewicht (kg)</label>
+          <input type="number" name="gewicht" id="gewicht" />
+          <div class="geschlecht">
+            <input type="radio" value="mann" id="mann" name="gender" checked />
+            <label for="mann">Männlich</label>
+            <input type="radio" value="frau" id="frau" name="gender" />
+            <label for="frau">Weiblich</label>
+          </div>
+          <select>
+            <option value="0.95">Schlafen</option>
+            <option value="1.2">Nur sitzen oder liegen</option>
+            <option value="1.5">Ausschlich sitzende Tätigkeit</option>
+            <option value="1.7">
+              Sitzende Tätigkeit mit zeitweiliger Bewegung
+            </option>
+            <option value="1.9">
+              Überwiegend gehende oder stehende Tätigkeit
+            </option>
+            <option value="2.2">Körperlich anstrengende Tätigkeit</option>
+          </select>
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+        <div class="output">
+          <h5>kcal</h5>
+          <h5>kJ</h5>
+          <h4>Grundumsatz</h4>
+          <h4>Gesamtumsatz</h4>
+          <h6 id="grundumsatz-kcal"></h6>
+          <h6 id="grundumsatz-kJ"></h6>
+          <h6 id="gesamtumsatz-kcal"></h6>
+          <h6 id="gesamtumsatz-kJ"></h6>
+        </div>
+      </article>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
