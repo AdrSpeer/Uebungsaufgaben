@@ -16,9 +16,22 @@
           <label for="netto"
             >Mehrwertsteuer aufschlagen (Netto zu Brutto)</label
           >
-          <input type="radio" name="satz" id="netto" value="netto" checked />
+          <input
+            onchange="changeText()"
+            type="radio"
+            name="satz"
+            id="netto"
+            value="netto"
+            checked
+          />
           <label for="brutto">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
-          <input type="radio" name="satz" id="brutto" value="brutto" />
+          <input
+            onchange="changeText()"
+            type="radio"
+            name="satz"
+            id="brutto"
+            value="brutto"
+          />
         </div>
         <div class="steuersatz">
           <h4>Mehrwertsteuersatz</h4>
