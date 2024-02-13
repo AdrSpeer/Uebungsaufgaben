@@ -11,8 +11,13 @@ const heros = [
   null,
 ];
 
-let herosFilter = heros.filter((singleHeros) => {
-  return singleHeros;
-});
+console.table(heros);
 
-console.log(herosFilter);
+const myHeros = () => {
+  const filteredHeros = heros.filter((singleHeros) => {
+    return singleHeros;
+  });
+  return filteredHeros;
+};
+
+console.table(myHeros());

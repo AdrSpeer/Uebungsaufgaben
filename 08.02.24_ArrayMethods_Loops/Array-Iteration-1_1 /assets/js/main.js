@@ -9,6 +9,11 @@ let getraenke = [
   "Fanta",
 ];
 
-getraenke.forEach((allDrinks, Index) => {
-  document.write(allDrinks, "<br>");
-});
+const myDrinks = (array) => {
+  const sortedArray = array.sort();
+  sortedArray.forEach((data) => {
+    return document.write(data, " ", "<br>");
+  });
+};
+
+myDrinks(getraenke);

@@ -3,10 +3,12 @@ let checkNumber = [
   74, 97, 28, 99, 91, 27, 73, 12, 92, 6, 27, 71, 26, 15, 78,
 ];
 
-let multiNumber = checkNumber.map((alleZahlen) => {
-  if (alleZahlen % 3 == 0) {
-    console.log(alleZahlen + 100);
+let numbers = checkNumber.map((allNumbers) => {
+  if (allNumbers % 3 == 0) {
+    return allNumbers + 100;
   } else {
-    console.log(alleZahlen);
+    return allNumbers;
   }
 });
+
+console.log(numbers);

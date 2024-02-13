@@ -10,14 +10,27 @@ const woerter = [
   "Krokodil",
   "Lampe",
 ];
+const namen = ["Adrian", "Cecile", "Claudius", "Konstantin", "StasiKlaus"];
 
-console.log(woerter);
-// ! Lange Schreibweise
-// const woerterFilter = woerter.filter((alleWoerter) => {
-//   return alleWoerter.length <= 6;
-// });
+const filterIt = (array) => {
+  const filterShort = [...array].filter((alleWoerter) => {
+    return alleWoerter.length <= 6;
+  });
+  return filterShort;
+};
 
-// ! Kurze Schreibweise
-const woerterFilter = woerter.filter((alleWoerter) => alleWoerter.length <= 6);
+// const sortIt = (array) => {
+//   const sortedArray = array.sort();
+//   return sortedArray;
+// };
 
-console.log(woerterFilter);
+const sortIt = (array) => {
+  const sortedArray = [...array].sort();
+  return sortedArray;
+};
+
+console.log(filterIt(woerter));
+console.log(filterIt(namen));
+
+console.log(sortIt(woerter));
+console.log(sortIt(namen));

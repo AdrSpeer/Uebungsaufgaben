@@ -13,13 +13,13 @@ let languages = [
   "Swift",
 ];
 
-languages.sort();
-console.log(languages);
+const sortierung = () => {
+  return languages.sort();
+};
 
-let numbers = [1, 4, 8, 12, 16, 2, 40, 3];
+// ! Mit reverse von Z-A
+// const sortierung = () => {
+//   return languages.sort().reverse();
+// };
 
-numbers.sort((a, b) => {
-  return a - b;
-});
-
-console.log(numbers);
+console.log(sortierung());
