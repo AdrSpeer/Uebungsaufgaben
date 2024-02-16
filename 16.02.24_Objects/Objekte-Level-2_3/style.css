@@ -1,0 +1,39 @@
+/* Basics */
+
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 3vw;
+}
+table {
+  text-align: center;
+}
+th {
+  background-color: rgba(99, 128, 129, 0.283);
+  padding: 0.7vw;
+}
+td {
+  background-color: rgba(114, 124, 124, 0.283);
+  padding: 2rem;
+}

@@ -1,0 +1,21 @@
+/* Basics */
+
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  width: 15vw;
+  height: 15vw;
+  background-color: rgba(170, 87, 87, 0.652);
+}
