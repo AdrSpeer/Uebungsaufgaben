@@ -1,0 +1,37 @@
+.projekt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5vw;
+  padding: 1vw;
+  margin-bottom: 4vw;
+}
+.projekt h3 {
+  font-size: 20px;
+  color: #bdbddd;
+}
+.projekt article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5vw;
+  text-align: center;
+}
+.projekt-box {
+  background-color: #23283e80;
+  padding: 1vw;
+}
+.projekt-box h5 {
+  margin-bottom: 1vw;
+  color: #bdbddd;
+  font-size: 15px;
+}
+.projekt-box p {
+  margin-bottom: 1vw;
+  color: #90a0d9;
+  font-size: 15px;
+}
+.projekt-box h6 {
+  margin-bottom: 1vw;
+  color: #bdbddd;
+}

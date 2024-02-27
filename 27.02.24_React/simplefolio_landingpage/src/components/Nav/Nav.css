@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5vw;
+  margin-bottom: 3vw;
+}
+nav a {
+  text-decoration: none;
+  padding: 1vw;
+  color: #bdbddd;
+}
+nav h3 {
+  text-decoration: none;
+  color: #90a0d9;
+}

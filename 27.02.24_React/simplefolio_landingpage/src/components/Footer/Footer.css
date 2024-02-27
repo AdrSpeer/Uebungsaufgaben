@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5vw;
+}
+
+footer h3 {
+  font-size: 20px;
+  color: #bdbddd;
+}
+
+footer a {
+  text-decoration: none;
+  color: #90a0d9;
+  border: 1px solid #bdbddd;
+  padding: 0.2vw 0.5vw;
+  margin-bottom: 2vw;
+}
+
+footer p {
+  color: #bdbddd;
+  padding-bottom: 2vw;
+}

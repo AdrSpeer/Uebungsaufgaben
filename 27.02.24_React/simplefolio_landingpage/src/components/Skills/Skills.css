@@ -1,0 +1,26 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5vw;
+  margin-bottom: 7vw;
+}
+
+.skills h3 {
+  font-size: 20px;
+  color: #bdbddd;
+}
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+.skills div a {
+  background-color: #23283e80;
+  color: #90a0d9;
+  text-align: center;
+  padding: 1vw;
+  margin: 0.5vw;
+  text-decoration: none;
+}
