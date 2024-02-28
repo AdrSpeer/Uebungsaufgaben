@@ -1,0 +1,15 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: rgba(240, 153, 168, 0.867);
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  scale: 1.1;
+}

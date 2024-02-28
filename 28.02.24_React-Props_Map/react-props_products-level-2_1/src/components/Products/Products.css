@@ -1,0 +1,12 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3vw;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
