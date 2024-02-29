@@ -1,0 +1,16 @@
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 1vw;
+}
+
+.new-box {
+  display: none;
+}
+.show-box {
+  padding: 1vw;
+  background-color: gray;
+  border-top: 1px white solid;
+}
