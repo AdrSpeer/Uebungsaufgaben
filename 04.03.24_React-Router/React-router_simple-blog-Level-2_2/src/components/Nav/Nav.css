@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  padding: 10px;
+}
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #0d4625;
+}
+
+.active {
+  font-weight: 800;
+  text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+.welcome {
+  margin-top: 10vw;
+  margin-left: 10vw;
+}
+.welcome h2 {
+  width: 12vw;
+  margin-bottom: 2vw;
+  color: #0d4625;
+}
+.welcome a {
+  text-decoration: none;
+  border: solid 2px #219653;
+  color: #219653;
+  padding: 5px;
+  border-radius: 5px;
+}

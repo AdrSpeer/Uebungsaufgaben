@@ -1,0 +1,22 @@
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2vw 6vw;
+}
+.detail img {
+  height: 65vw;
+  width: 85vw;
+  margin-bottom: 0.5vw;
+}
+.detail article {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  gap: 1vw;
+}
+.detail article div {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+}

@@ -1,0 +1,41 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blog article {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3vw;
+  gap: 4vw;
+  margin-bottom: 1vw;
+}
+.blog article div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25vw;
+}
+
+.blog article div img {
+  width: 100%;
+  height: 15vw;
+  border-radius: 10px;
+  margin-bottom: 0.5vw;
+}
+
+.blog article div h3 {
+  margin-bottom: 1vw;
+  color: #0d4625;
+}
+.blog article div button {
+  border: 2px solid #219653;
+  color: #0d4625;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+}
